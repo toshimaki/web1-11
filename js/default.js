@@ -4,7 +4,7 @@ var answer = parseInt(window.prompt('数あてゲーム。０～２の数字を�
 
 var message;
 if(answer === number){
-message = '正解';
+message = '正解！おめでとう！';
 }else if (answer < number){
 message = '不正解、もっと大きいです';
 }else if (number < answer){
